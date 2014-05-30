@@ -1,0 +1,459 @@
+h1,h2,h3{
+	font-family: 'Swanky and Moo Moo', cursive;
+}
+
+h2{
+	font-size: 2em;
+}
+
+hr{
+	color: #fff;
+	margin: 50px auto 10px;
+}
+
+body{
+	margin: 0 auto;
+	background-color: rgba(200,201,201,0.37);
+}
+
+header{
+	width: 100%;
+	background-color: #bad6ff;
+}
+
+
+header img{
+	width: 45%;
+	margin: 10px 0 0 24%;
+}
+
+button{
+	width: 100%;
+	margin: 0 auto;
+}
+
+nav{
+	width: 100%;
+	background-color:#454eff;
+	color: #fff;
+	padding: 5px 0;
+}
+
+nav ul{
+	list-style-type: none;
+	display: inline;
+}
+
+nav ul li{
+	list-style-type: none;
+	float: left;
+	margin-left: 2%;
+	padding-right: 2%;
+	border-right: 1px solid white;
+}
+
+nav a{
+	text-decoration: none;
+	color: #fff;
+}
+
+#container{
+	width: 66.7%;
+	margin: 0 auto 10px;
+}
+
+.gallery{
+	width: 80%;
+	margin: 10px auto;
+}
+
+.gallery img{
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+fieldset{
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	width: 85%;
+	margin: 0 auto;	
+
+}
+
+footer{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#contact{
+	width: 50%;
+	margin: 10px auto;
+	border: 1px solid black;
+}
+
+canvas{
+	display: block;
+	margin: 10px auto;
+}
+
+#canvas1{
+	width: 20%;
+}
+
+
+#canvas2{
+	width: 20%;
+}
+
+aside h2{
+	text-align: center;
+	margin: -5px auto 20px;
+}
+
+#vids{
+	width: 80%;
+	margin: 20px auto;
+	text-align: center;
+}
+
+#faces{
+	width: 66.7%;
+	text-align: center;
+	overflow: hidden;
+	margin: 0 auto 10px;
+	position: absolute;
+	z-index: 500;
+}
+
+#faces img{
+	width: 20.165%;
+	height: 200px;
+	margin: 0 0 20px 9.8%;
+	float: left;
+	z-index: 900;
+}
+
+
+#faces_info{
+	width: 66.7%;
+	overflow: hidden;
+	margin: 0 auto 10px;
+	position: absolute;
+}
+
+#faces_info p{
+	width: 18.5%;
+	height: 184px;
+	margin: 101px 0 20px 9.9%;
+	float: left;
+	padding: .5em;
+	z-index: 800;
+	font-size: 1em;
+}
+
+.caption{
+	width: 100%;
+	margin: 350px auto 20px;
+	float: none;
+	text-align: center;
+}
+
+footer{
+	width: 100%;
+	background-color:#454eff;
+	color: #fff;
+	padding: 5px 0;
+	
+}
+
+footer ul{
+	list-style-type: none;
+	display: inline;
+}
+
+footer ul li{
+	list-style-type: none;
+	float: right;
+	margin-right: 2%;
+	padding-left: 2%;
+}
+
+footer a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.active{
+	color: #56f573 !important;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (max-width : 1024px) {
+	#vids{
+		width: 100%;
+		margin: 20px auto;
+		text-align: center;
+	}
+	
+	#faces{
+		width: 66.7%;
+		text-align: center;
+		overflow: hidden;
+		margin: 0 auto 10px;
+		position: absolute;
+		z-index: 500;
+	}
+	
+	#faces img{
+		width: 20.165%;
+		height: 150px;
+		margin: 0 0 20px 9.8%;
+		float: left;
+		z-index: 900;
+	}
+	
+	#faces_info{
+		width: 66.7%;
+		overflow: hidden;
+		margin: 0 auto 10px;
+		position: absolute;
+	}
+	
+	#faces_info p{
+		width: 18.5%;
+		height: 184px;
+		margin: 101px 0 20px 9.8%;
+		float: left;
+		padding: .5em;
+		z-index: 800;
+		font-size: 1em;
+	}
+	
+	.caption{
+		width: 100%;
+		margin: 300px auto 20px;
+		float: none;
+		text-align: center;
+	}
+}
+
+@media only screen 
+and (max-width : 800px) {
+	#vids{
+		width: 100%;
+		margin: 20px auto;
+		text-align: center;
+	}
+	
+	#faces{
+		width: 66.7%;
+		text-align: center;
+		overflow: hidden;
+		margin: 0 auto 10px;
+		position: absolute;
+		z-index: 500;
+	}
+	
+	#faces img{
+		width: 20.165%;
+		height: 150px;
+		margin: 0 0 20px 9.8%;
+		float: left;
+		z-index: 900;
+	}
+	
+	#faces_info{
+		width: 66.7%;
+		overflow: hidden;
+		margin: 0 auto 10px;
+		position: absolute;
+	}
+	
+	#faces_info p{
+		width: 18.5%;
+		height: 184px;
+		margin: 101px 0 20px 9.8%;
+		float: left;
+		padding: .5em;
+		z-index: 800;
+		font-size: 1em;
+	}
+	
+	.caption{
+		width: 100%;
+		margin: 300px auto 20px;
+		float: none;
+		text-align: center;
+	}
+}
+
+
+@media only screen 
+and (max-width : 768px) {
+	#vids{
+		width: 100%;
+		margin: 20px auto;
+		text-align: center;
+	}
+	
+	#faces{
+		width: 66.7%;
+		text-align: center;
+		overflow: hidden;
+		margin: 0 auto 10px;
+		position: absolute;
+		z-index: 500;
+	}
+	
+	#faces img{
+		width: 20.165%;
+		height: 130px;
+		margin: 0 0 20px 9.8%;
+		float: left;
+		z-index: 900;
+	}
+	
+	#faces_info{
+		width: 66.7%;
+		overflow: hidden;
+		margin: 0 auto 10px;
+		position: absolute;
+	}
+	
+	#faces_info p{
+		width: 18.5%;
+		height: 184px;
+		margin: 101px 0 20px 9.8%;
+		float: left;
+		padding: .5em;
+		z-index: 800;
+		font-size: 1em;
+	}
+	
+	.caption{
+		width: 100%;
+		margin: 300px auto 20px;
+		float: none;
+		text-align: center;
+	}
+}
+
+
+@media only screen 
+and (max-width : 600px) {
+	#vids{
+		display: none;
+	}
+	
+	#faces{
+		display: none;
+	}
+	
+	#faces img{
+		display: none;
+	}
+	
+	.img1{
+		display: none;
+	}
+	
+	#faces_info{
+		display: none;
+	}
+	
+	#faces_info p{
+		display: none;
+	}
+	
+	.caption{
+		display: none;
+	}
+	
+	.disable{
+		display: none;
+	}
+
+/* Styles */
+}
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (max-width : 480px) {
+	#vids{
+		display: none;
+	}
+	
+	#faces{
+		display: none;
+	}
+	
+	#faces img{
+		display: none;
+	}
+	
+	.img1{
+		display: none;
+	}
+	
+	#faces_info{
+		display: none;
+	}
+	
+	#faces_info p{
+		display: none;
+	}
+	
+	.caption{
+		display: none;
+	}
+	
+	.disable{
+		display: none;
+	}
+
+/* Styles */
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+	#vids{
+		display: none;
+	}
+	
+	#faces{
+		display: none;
+	}
+	
+	#faces img{
+		display: none;
+	}
+	
+	.img1{
+		display: none;
+	}
+	
+	#faces_info{
+		display: none;
+	}
+	
+	#faces_info p{
+		display: none;
+	}
+	
+	.caption{
+		display: none;
+	}
+	
+	.disable{
+		display: none;
+	}
+
+/* Styles */
+}
+
